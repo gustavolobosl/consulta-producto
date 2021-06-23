@@ -1,0 +1,67 @@
+.modal-content {
+  background: var(--primary);
+  color: white;
+}
+
+.modal-content h4 {
+  font-weight: 600;
+}
+
+.modal-content .fila {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.modal-content .fila .destacado {
+  font-weight: 600;
+}
+
+.modal-content .estado {
+  color: #39B54A;
+}
+
+.modal-content table {
+  background-color: white;
+  color: var(--primary);
+}
+
+.modal-content table .destacado {
+   font-weight: 600;
+}
+
+.modal-content table td {
+  border: 2px solid var(--primary);
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-footer button {
+  background-color: white;
+  border-radius: 50px;
+  padding-inline-start: 80px;
+  padding-inline-end: 80px;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  font-size: 20px;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.close {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+}
+
+.close:hover {
+  transform: scale(1.5);
+  transition: all 300ms;
+  color: white;
+}

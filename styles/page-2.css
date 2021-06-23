@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+main {
+    color: var(--primary);
+}
+
+.page-2 .wrapper {
+    max-height: 60vh;
+    overflow-x: hidden;
+    padding-right: 5px;
+    overflow-x: scroll;
+}
+
+.page-2 .wrapper .table {
+    color: var(--primary);
+    box-shadow: 5px 2px 12px #CCCCCC;
+}
+
+.page-2 label {
+    margin-bottom: 0;
+}
+
+.page-2 .wrapper .table thead {
+    background: var(--primary);
+    color: white;
+    font-size: 9px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #BEDEF3;
+
+}
+
+.table-hover tbody tr:hover {
+    background-color: #3E9ACE;
+    color: white
+}
+
+.table-hover tbody tr {
+    color: var(--primary);
+}
+
+.page-2 .wrapper .table tbody {
+
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.page-2 .wrapper::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+.page-2 .wrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: var(--primary);
+}
+
+
+.page-2 .botones {
+  border-radius: 50px;
+  padding-inline-end: 30px;
+  padding-inline-start: 30px;
+  height: 50px;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+  /* min-width: 200px; */
+}
+
+.page-2 .botones img {
+    height: 25px;
+    margin-right: 10px;
+}

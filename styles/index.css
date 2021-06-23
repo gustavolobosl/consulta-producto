@@ -1,0 +1,93 @@
+@import './logo.css';
+@import './page-1.css';
+@import './page-2.css';
+@import './page-3.css';
+@import './page-4.css';
+@import './menu.css';
+@import './titulo-perfil.css';
+@import './modal.css';
+:root {
+    --primary: #0B78CE;
+}
+
+.btn-primary {
+    background-color: #0B78CE;
+}
+
+@media screen and (max-width: 600px) {
+    body table label {
+        font-size: 10px;
+    }
+    * a {
+        font-size: 12px !important;
+    }
+    .page-4 .botones div {
+        margin-bottom: 15px;
+    }
+    .page-5 .botones div {
+        margin-bottom: 15px;
+    }
+    .page-2 .boton {
+        background-color: #dbebf8;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .page-2 .boton img {
+        height: 3vh;
+    }
+    .page-2 .botones span {
+        color: var(--primary);
+        font-weight: 400;
+        font-size: small;
+    }
+    .logo {
+        width: 150px;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .page-3 .wrapper {
+        height: 60vh;
+        overflow-x: hidden;
+        padding-right: 5px;
+        overflow-x: scroll;
+    }
+    .page-4 .botones a img {
+        display: none;
+    }
+    .page-4 .botones a {
+        width: 100%x;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: start;
+        font-size: 20px !important;
+        height: 40px;
+    }
+
+    .page-1 .boton {
+        background-color: #dbebf8;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .page-2 .boton img {
+        height: 3vh;
+    }
+
+    .caja-botones {
+        display: inline !important;
+    }
+
+    .caja-botones .boton {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

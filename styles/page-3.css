@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+main {
+    color: var(--primary);
+}
+
+.name-farmaco label{
+    color: black !important;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.name-farmaco span {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.page-3 .wrapper {
+    max-height: 50vh;
+    overflow-x: hidden;
+    padding-right: 5px;
+    overflow-x: scroll;
+}
+
+.page-3 .wrapper .table {
+    color: var(--primary);
+    box-shadow: 5px 2px 12px #CCCCCC;
+}
+
+.page-3 .wrapper .table thead {
+    background: var(--primary);
+    color: white;
+    font-size: 9px;
+}
+
+.page-3 label {
+    margin-bottom: 0;
+}
+
+.table td, .table th {
+    padding: 8px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #BEDEF3;
+
+}
+
+.table-hover tbody tr:hover {
+    background-color: #3E9ACE;
+    color: white
+}
+
+.table-hover tbody tr {
+    color: var(--primary);
+}
+
+.page-3 .wrapper .table tbody {
+
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.page-3 .wrapper::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+.page-3 .wrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: var(--primary);
+}
+
+.caja-botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.page-3 .botones {
+  border-radius: 50px;
+  padding-inline-end: 30px;
+  padding-inline-start: 30px;
+  height: 50px;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+  /* width: 100%; */
+}
+
+.page-3 .boton {
+    width: 200px;
+}
+
+.page-3 .stock-excedentes {
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-3 .stock-excedentes .row div .columna-1{
+    height: 110px;
+    color: white;
+    border: 1px solid var(--primary);
+    padding: 15px;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.page-3 .stock-excedentes .row div .columna-2{
+    background-color: white;
+    height: 110px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 15px;
+}
+
+.logo-isapre img {
+    height: 30px;
+    width: 30px;
+}
+
+.page-3 .botones img {
+    height: 25px;
+    margin-right: 8px;
+}
+
+.page-3 .disabled {
+    background-color: #4BA2DD !important;
+    pointer-events: none;
+}
